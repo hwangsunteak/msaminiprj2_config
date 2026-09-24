@@ -9,3 +9,8 @@ spring:
       group-id: product-group
       # 카프카내에 들어와있는 메시지중에 처음들어와있는 메시지부터 읽기시작(latest: 현시점이후로 들어오는 메시지만 read), product 서버가 죽었다가 살아난 경우가정
       auto-offset-reset: earliest
+# 파일 업로드
+file:
+  upload-dir:
+    jpa: f:/dev/msaminiprj2_jpa_upload_product/ # Linux 서버인 경우 /app/upload/ 형태  ... ..
+    mybatis: f:/dev/msaminiprj2_mybatis_upload_product/
