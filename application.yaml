@@ -3,11 +3,11 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8841/eureka/
+      defaultZone: http://${EUREKA_HOST:localhost}:8841/eureka/
 
 spring:
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_HOST:localhost}
     port: 5672
     username: guest
     password: guest
@@ -18,11 +18,11 @@ spring:
 #    name: member-service
   data:
     redis:
-      host: localhost
+      host: ${REDIS_HOST:localhost}
       port: 7777
       password: GODLOVEME
   # 구버전 경로 참조용으로 추가
   redis:
-    host: localhost
+    host: ${REDIS_HOST:localhost}
     port: 7777
     password: GODLOVEME
