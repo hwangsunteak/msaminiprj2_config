@@ -21,8 +21,8 @@ spring:
       host: ${REDIS_HOST:localhost}
       port: ${REDIS_PORT:7777}
       password: GODLOVEME
-  # 구버전 경로 참조용으로 추가
+  # 구버전 경로 참조용으로 추가 , 로컬 7777, ec2에서는 compose.yml에 환경변수값으로..
   redis:
     host: ${REDIS_HOST:localhost}
-    port: 7777
+    port: ${REDIS_PORT:7777}
     password: GODLOVEME
