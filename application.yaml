@@ -19,7 +19,7 @@ spring:
   data:
     redis:
       host: ${REDIS_HOST:localhost}
-      port: 7777
+      port: ${REDIS_PORT:7777}
       password: GODLOVEME
   # 구버전 경로 참조용으로 추가
   redis:
