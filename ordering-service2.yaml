@@ -18,5 +18,5 @@ resilience4j:
 # 파일 업로드
 file:
   upload-dir:
-    jpa: f:/dev/msaminiprj2_jpa_upload_ordering/ # Linux 서버인 경우 /app/upload/ 형태  ... ..
-    mybatis: f:/dev/msaminiprj2_mybatis_upload_ordering/
+    jpa: ${UPLOAD_DIR_JPA:f:/dev/msaminiprj2_jpa_upload_ordering/}
+    mybatis: ${UPLOAD_DIR_MYBATIS:f:/dev/msaminiprj2_mybatis_upload_ordering/}

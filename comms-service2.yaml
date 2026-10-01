@@ -13,5 +13,5 @@ spring:
 # 파일 업로드
 file:
   upload-dir:
-    jpa: f:/dev/msaminiprj2_jpa_upload_comms/ # Linux 서버인 경우 /app/upload/ 형태  ... ..
-    mybatis: f:/dev/msaminiprj2_mybatis_upload_comms/
+    jpa: ${UPLOAD_DIR_JPA:f:/dev/msaminiprj2_jpa_upload_comms/}
+    mybatis: ${UPLOAD_DIR_MYBATIS:f:/dev/msaminiprj2_mybatis_upload_comms/}
