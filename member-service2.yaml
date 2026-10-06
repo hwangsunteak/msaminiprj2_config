@@ -5,5 +5,5 @@ file:
     mybatis: ${UPLOAD_DIR_MYBATIS:f:/dev/msaminiprj2_mybatis_upload_member/}
 
 jwt:
-  expiration: 60
-  expirationRt: 180
+  expiration: 100
+  expirationRt: 500
