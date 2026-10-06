@@ -14,13 +14,6 @@ spring:
   cloud:
     bus:
       enabled: true
-    refresh:
-      never-refreshable:
-        - javax.sql.DataSource
-        - com.zaxxer.hikari.HikariDataSource
-        - net.ttddyy.dsproxy.support.ProxyDataSource  # <--- 필수 추가! (현재 원인)
-        - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean
-        - org.springframework.orm.jpa.JpaTransactionManager
 #  application: 각자가 가지고있으니...
 #    name: member-service
   data:
