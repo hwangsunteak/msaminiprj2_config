@@ -45,5 +45,5 @@ logging:
     com.example.msa_db_sep_hst: DEBUG
 
 jwt:
-  expiration: 140
+  expiration: 200
   expirationRt: 1500
