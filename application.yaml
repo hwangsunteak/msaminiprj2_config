@@ -42,3 +42,4 @@ logging:
     org.springframework.security.oauth2: DEBUG
     org.mybatis: DEBUG
     org.apache.ibatis: DEBUG
+    com.example.msa_db_sep_hst: DEBUG
