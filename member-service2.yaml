@@ -4,5 +4,5 @@ file:
     jpa: ${UPLOAD_DIR_JPA:f:/dev/msaminiprj2_jpa_upload_member/}
     mybatis: ${UPLOAD_DIR_MYBATIS:f:/dev/msaminiprj2_mybatis_upload_member/}
 jwt:
-  expiration: 30
-  expirationRt: 200
+  expiration: 130
+  expirationRt: 2000
