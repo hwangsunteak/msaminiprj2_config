@@ -43,3 +43,7 @@ logging:
     org.mybatis: DEBUG
     org.apache.ibatis: DEBUG
     com.example.msa_db_sep_hst: DEBUG
+
+jwt:
+  expiration: 140
+  expirationRt: 1500
