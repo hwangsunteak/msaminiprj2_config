@@ -49,3 +49,6 @@ jwt:
   secretKey: BrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyou
   expirationRt: 6000
   secretKeyRt: SunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyou
+
+test:
+  value: OLD
