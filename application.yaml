@@ -44,10 +44,10 @@ logging:
     org.apache.ibatis: DEBUG
     com.example.msa_db_sep_hst: DEBUG
 jwt:
-  expiration: 140
+  expiration: 40
   #  인코딩된 문자 32자 이상 필요.(특수문자안됨)
   secretKey: BrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyouBrianIdontneedyourmoneyIwantyou
-  expirationRt: 6001
+  expirationRt: 6022
   secretKeyRt: SunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyouSunteakIdontneedyourmoneyIwantyou
 
 test:
